@@ -1,0 +1,150 @@
+@charset "utf-8";
+html {
+    font-family: "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif; 
+}
+
+body {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.fixed-width {
+    margin: 0 auto;
+    width: 880px;
+}
+
+#title-wrapper {
+    height: 100px;
+}
+
+#header h1{
+    margin: 10px 10px;
+}
+
+#header .logo {
+    float: left;
+}
+
+#header .logo p {
+    margin: 0 0;
+    font-size: 0.7em;
+}
+
+#header .logo a {
+    color: #fe5a46;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#title-wrapper .tel {
+    margin: 60px 0 0;
+    float: right;
+}
+#title-wrapper .tel p {
+    margin: 0;
+    font-size: 0.8em;
+}
+#title-wrapper .tel em {
+    font-size: 1.4em;
+}
+
+#header .menu {
+    border-top: 1px dashed #555;
+    border-bottom: 1px dashed #555;
+}
+
+#header .menu ul {
+    padding: 0;
+    height: 40px;
+    border-left: 1px dashed #555;
+}
+
+#header .menu li {
+    float: left;
+    width: 218px;
+    text-align: center;
+    padding: 6px 0;
+    border-right: 1px dashed #555;
+    list-style: none;
+}
+
+#header .menu a {
+    color: #fe5a46;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#header .menu a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+#footer hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px dashed #555;
+    border-botom: none; 
+}
+
+#footer-wrapper {
+    color: #555;
+}
+#footer-wrapper .copyright {
+    align: right;
+    font-size: 0.8em;
+}
+
+h3 {
+    color: #555;
+    padding-left: 0.3em;
+    border-left: solid 3px #ff9100;
+    border-bottom: solid 1px #ff9100;
+}
+
+h4 {
+    color: #555;
+    padding-left: 0.3em;
+}
+
+a {
+    color: #008c26;
+}
+a:visited {
+    color: #008c26;
+}
+a:hover {
+    color: #258787;
+}
+
+table.opening-hours {
+    width: 800px;
+    border: 1px #555 solid;
+    align: center;
+}
+
+table.opening-hours th, td { 
+    border: 1px #777 solid;
+}
+
+table.opening-hours th {
+    text-align: center;
+    font-weight: normal;
+    background-color: #fef6de;
+}
+
+table.opening-hours td {
+    text-align: center;
+}
+
+table.opening-hours th.first {
+    width: 150px;
+}
+
+#contents strong {
+    color: red;
+}
+
+#contents em {
+    color: red;
+    font-style: normal;
+}
