@@ -17,20 +17,20 @@ body {
     height: 100px;
 }
 
-#header h1{
+header h1{
     margin: 10px 10px;
 }
 
-#header .logo {
+header .logo {
     float: left;
 }
 
-#header .logo p {
+header .logo p {
     margin: 0 0;
     font-size: 0.7em;
 }
 
-#header .logo a {
+header .logo a {
     color: #fe5a46;
     font-weight: bold;
     text-decoration: none;
@@ -48,18 +48,18 @@ body {
     font-size: 1.4em;
 }
 
-#header .menu {
+header nav {
     border-top: 1px dashed #555;
     border-bottom: 1px dashed #555;
 }
 
-#header .menu ul {
+header nav ul {
     padding: 0;
     height: 40px;
     border-left: 1px dashed #555;
 }
 
-#header .menu li {
+header nav li {
     float: left;
     width: 218px;
     text-align: center;
@@ -68,18 +68,18 @@ body {
     list-style: none;
 }
 
-#header .menu a {
+header nav a, header nav a:visited {
     color: #fe5a46;
     font-weight: bold;
     text-decoration: none;
 }
 
-#header .menu a:hover {
+header nav a:hover {
     color: #000;
     text-decoration: none;
 }
 
-#footer hr{
+footer hr{
     margin-top: 20px;
     margin-bottom: 10px;
     border-top: 1px dashed #555;
@@ -140,11 +140,11 @@ table.opening-hours th.first {
     width: 150px;
 }
 
-#contents strong {
+main strong {
     color: red;
 }
 
-#contents em {
+main em {
     color: red;
     font-style: normal;
 }
