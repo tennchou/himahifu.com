@@ -134,6 +134,7 @@ table.opening-hours th {
 
 table.opening-hours td {
     text-align: center;
+    width: 90px;
 }
 
 table.opening-hours th.first {
