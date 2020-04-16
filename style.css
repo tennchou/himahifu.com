@@ -117,9 +117,8 @@ a:hover {
 }
 
 table.opening-hours {
-    width: 800px;
+    width: 880px;
     border: 1px #555 solid;
-    align: center;
 }
 
 table.opening-hours th, td { 
